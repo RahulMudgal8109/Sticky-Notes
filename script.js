@@ -1,4 +1,3 @@
-
 let title = document.getElementById('title');
 let color = document.getElementById('color');
 let ipText = document.getElementById('ip-textt');
@@ -76,7 +75,7 @@ const currentDayOfWeek = daysOfWeek[dateObj.getDay()];
     div.style.margin = "35px 10px 10px 10px";
     // div.style.backgroundColor=color.value;
     div.innerHTML = `<h2>${title.value} </h2>
-        <div class="op-text m-1" id="op-text" style="background-color:${color.value}">
+        <div class=" m-1" id="op-text" style="background-color:${color.value}">
         <textarea class="p-box-text p-1" id="p-box-text" style="background-color:${color.value}" readonly="readonly">${ipText.value}</textarea>
         <div class="btns">
             <button class="delete m-1" id="delete">X</button>
@@ -118,7 +117,7 @@ const currentDayOfWeek = daysOfWeek[dateObj.getDay()];
         element.addEventListener('click', function () {
             if (flag === false) {
                 element.parentNode.parentNode.parentNode.style.width = "600px";
-                element.parentNode.parentNode.parentNode.style.height = "500px!important";
+                element.parentNode.parentNode.parentNode.style.height = "500px";
                 element.parentNode.parentNode.parentNode.style.transition = "0.7s ease-in-out";
 
                 element.parentNode.parentNode.firstChild.nextElementSibling

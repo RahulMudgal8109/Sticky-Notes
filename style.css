@@ -1,0 +1,81 @@
+body{
+    background-color: rgb(187, 187, 187)!important;
+}
+.main{
+    height: 800px;
+}
+.add-sec
+{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.add-sec
+{
+    background-color: white;
+}
+.title
+{
+    width: 90%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.ip-text
+{
+    position: relative;
+    width:80%;
+    height:250px;
+    align-items: center;
+    background-color: #7CFC00;
+    
+}
+
+
+.btn
+{
+    background-color: rgb(187, 187, 187)!important;
+    width: 80%;
+}
+.btns
+{
+    width:10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    position: absolute;
+   
+    right: 8%;
+}
+.p-box-text{
+    position: absolute;
+    left: 0%;
+    
+    width: 80%;
+    height: 100%;
+    outline: none;
+    resize: none;
+    border:none
+}
+.transition
+{
+    width:200%;
+    height: 200%;
+    transition: 0.5s ease-in-out;
+}
+.op-text
+{
+    width:100%;
+    height:100%;
+}
+textarea{
+    padding: 0%!important;
+}
+.date-time
+{
+    font-family: monospace;
+}
